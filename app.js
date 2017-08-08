@@ -61,6 +61,7 @@ io.sockets.on('connection', function (socket){
     var hora = new Date();
     
     var userDB = { 
+      id: '',
       nombre: 'deyvi',
       lon: longitude,
       lat: latitude,
