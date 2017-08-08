@@ -1,0 +1,14 @@
+extends layout
+
+block js
+	script
+		var users = !{JSON.stringify(users)};
+
+block main
+	h1= title
+	div(id="map")
+	form
+		a(id="close", href="#close") x
+		label Introduce tu nombre se usuario
+		input(type="text", id="username", value="@")
+		input(type="submit")
