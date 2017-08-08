@@ -22,8 +22,8 @@ var connectionDB = mysql.createConnection({
   //propiedades de la base de datos
   host: "localhost",
   user: "root",
-  password: "123456",
-  database: "monito"
+  password: "",
+  database: "localizacion"
 });
 
 connectionDB.connect(function(error){
