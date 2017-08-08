@@ -21,8 +21,8 @@ app.configure(function() {
 var connectionDB = mysql.createConnection({
   //propiedades de la base de datos
   host: "localhost",
-  user: "root",
-  password: "",
+  user: "geo",
+  password: "Lxb8~a44",
   database: "localizacion"
 });
 
